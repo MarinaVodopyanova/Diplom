@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0e9d52-bef0-41df-839c-4362d782318a">
+  <producedTypes>
+    <selectionType typeId="1001960b-f69f-4792-b0d4-8573eb099409" valueTypeId="fb883f41-3944-4296-818e-7baeff4dafb0"/>
+    <listType typeId="0f9b0b1b-1236-4522-8d3d-3940b128d40b" valueTypeId="7944c832-b8bc-4c18-b014-6e8901c98afb"/>
+    <managerType typeId="0013a8a4-98ad-4fd2-aef9-1bf04bb97f4b" valueTypeId="1db87da9-d9f8-4dc8-ba9d-5d50897b4ae9"/>
+    <recordSetType typeId="557f9dd5-aca0-4302-9675-a5b0cd4ece43" valueTypeId="1d73c1a2-c752-494c-a920-d2f988bae20b"/>
+    <recordKeyType typeId="8df0ffa8-279e-4bef-a9ee-8b0107d3e9c4" valueTypeId="19a17921-dc2c-433d-bdf9-1286ab7cf3f3"/>
+    <recordType typeId="c1297823-5739-457d-bd47-b1c087ec2b68" valueTypeId="1d9636b6-9464-4454-ac91-204257ace0f7"/>
+    <recordManagerType typeId="87c76633-3fe9-49b7-a132-b5d63a6d262c" valueTypeId="85e3e26d-c275-46d8-a6c8-af8257fb1602"/>
+  </producedTypes>
+  <name>Скидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70581ab2-e356-4dfa-b63c-f4e2e6b183c3">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c31a7997-7734-4d5d-9896-e6b78fa34fab">
+    <name>НоменклатураНоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="347bd281-30ac-4c65-92e2-9b2368c910e6">
+  <producedTypes>
+    <objectType typeId="fc180b37-d71a-448c-baa5-492114f41dad" valueTypeId="1bf457aa-8db5-49b0-b74d-899f1e3cf88d"/>
+    <refType typeId="aed074a9-7964-44cd-b4e1-c5755ffe42e0" valueTypeId="11b6ae71-4103-4bb7-a006-a6fecf194bd3"/>
+    <selectionType typeId="83bdc6d4-07f3-4e2a-92ef-d46d66bea95a" valueTypeId="45777830-ca6c-4e24-aaef-6ff976df0d4c"/>
+    <listType typeId="a25d480b-3be0-4605-8f6d-bba86af529ff" valueTypeId="6b6cf5c0-3500-4e78-88cc-4c76772e70a1"/>
+    <managerType typeId="5558a76a-83b3-4869-b514-a71ca93a114d" valueTypeId="0ce282d9-0bff-4113-aa35-66b4d2efb734"/>
+  </producedTypes>
+  <name>УстановкаСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаСкидок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка скидок</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Установка скидок</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаСкидок.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.Скидки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1d46562d-19c5-40be-b04b-88c1a7faae94">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b5f117bd-68bd-465a-aec8-f86fdf3af003">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3373b09d-4cf0-4316-9a5b-ee7eb3b91d47">
+    <producedTypes>
+      <objectType typeId="113e7850-6d07-43a8-b8cc-933caf8e9b10" valueTypeId="d343b996-2254-4cf5-87be-2ea03cafd7cf"/>
+      <rowType typeId="0c8262b3-f1fd-4cc4-bc9c-f5b5168a8830" valueTypeId="6feda8d3-9581-4e99-8621-b2ea18096698"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="98eef2d6-ab88-4cb6-bbf8-6d251e7fc85c">
+      <name>НоменклатураНоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатурныеГруппы</types>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b991093-6a03-45e5-a089-3fa2dca4836f">
+      <name>Скидка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

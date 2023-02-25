@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76b8dacc-3056-4e56-97c2-9feb05062506">
+  <name>УправлениеИТФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ИТ-Фирмой</value>
+  </synonym>
+  <comment>Учебная база</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="33e640f5-6782-44d1-92e1-06e007695307"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="21fec97f-6517-4a80-8464-424dd26811fa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="edc6e8ed-81fb-4754-910a-99bcfbe6a1d7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="59e11a41-6273-4c6e-9062-2a7824753ae5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3f4abba0-e829-469b-849d-33bd7a210c56"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="46fbe2ed-dd95-411d-8c7d-51653510ebd1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5ef6023d-64c3-4090-8205-5e3cb98a7790"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Профпереподготовка</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Профпереподготовка от Нетологии</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Водопьянова М А</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Ростов-на-Дону</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>ПК</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="0e464ee5-60ca-4f65-b8eb-9f9198e6d955">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <subsystems>Subsystem.Деньги</subsystems>
+  <styleItems>StyleItem.ШрифтПомеченныхНаУдаление</styleItems>
+  <sessionParameters>SessionParameter.ЭтоВебКлиент</sessionParameters>
+  <sessionParameters>SessionParameter.СотрудникТекущегоПользователя</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <roles>Role.ПоздравлениеСДнемРождения</roles>
+  <commonTemplates>CommonTemplate.МакетРеестрДокументовПоступление</commonTemplates>
+  <commonTemplates>CommonTemplate.ИнформацияПоКонтрагенту</commonTemplates>
+  <commonModules>CommonModule.РаботаСПараметрамиСеансаВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСПараметрамиСеансаСервер</commonModules>
+  <commonModules>CommonModule.СотрудникиСервер</commonModules>
+  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЦеныСервер</commonModules>
+  <commonModules>CommonModule.ЦеныВызовСервера</commonModules>
+  <commonModules>CommonModule.НДСКлиентСервер</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗарплаты</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <commonCommands>CommonCommand.УволенныеСотрудники</commonCommands>
+  <commonCommands>CommonCommand.РаботающиеСотрудники</commonCommands>
+  <commonCommands>CommonCommand.НастройкаПрограммы</commonCommands>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.БыстрыйДоступ</commandGroups>
+  <constants>Constant.ВестиРасчетЗарплаты</constants>
+  <constants>Constant.ВерсияКонфигурации</constants>
+  <commonForms>CommonForm.НастройкаПрограммы</commonForms>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <documents>Document.Событие</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.УстановкаСкидок</documents>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
+  <documents>Document.СписаниеДенежныхСредств</documents>
+  <documents>Document.ЗаказыПокупателей</documents>
+  <documentJournals>DocumentJournal.ДвиженияТоваров</documentJournals>
+  <documentJournals>DocumentJournal.ЦеныИСкидки</documentJournals>
+  <documentJournals>DocumentJournal.Сделки</documentJournals>
+  <documentJournals>DocumentJournal.Деньги</documentJournals>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыСобытий</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
+  <reports>Report.ДвижениеТоваров</reports>
+  <reports>Report.ДоходыИРасходы</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.Скидки</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
+</mdclass:Configuration>

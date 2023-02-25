@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1a39f7e-69b2-45b6-a706-a4bc9e0c48ea">
+  <name>МакетРеестрДокументовПоступление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет реестр документов поступление</value>
+  </synonym>
+</mdclass:CommonTemplate>
